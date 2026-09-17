@@ -1,0 +1,164 @@
+{
+  "talk": "欢迎光临小心的食品店哦！货架上全是对心脏友善的吃食，今天想补点什么呢...",
+  "defaultCat": "produce",
+  "defaultItem": "apple",
+  "cats": [
+    {
+      "id": "produce",
+      "icon": "apple",
+      "title": "蔬果"
+    },
+    {
+      "id": "meat",
+      "icon": "food-1",
+      "title": "肉类"
+    },
+    {
+      "id": "drink",
+      "icon": "water",
+      "title": "饮料"
+    }
+  ],
+  "items": [
+    {
+      "id": "apple",
+      "cat": "produce",
+      "name": "小心牌红苹果",
+      "price": 55,
+      "bonusKey": "mag",
+      "bonus": 3,
+      "bonusText": "镁元素 +3",
+      "desc": "一天一苹果，小心少操劳。皮薄汁多，便宜好入口，适合先把镁槽补到能合成的边儿上。",
+      "icon": "apple",
+      "iconSrc": "image/uploads/shop/apple.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "banana",
+      "cat": "produce",
+      "name": "能量小香蕉",
+      "price": 90,
+      "bonusKey": "mag",
+      "bonus": 5,
+      "bonusText": "镁元素 +5",
+      "desc": "钾和镁的老搭档。吃一根，心跳稳一点，加班到腿软时也不那么容易抽筋。",
+      "icon": "banana",
+      "iconSrc": "image/uploads/shop/banana.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "carrot",
+      "cat": "produce",
+      "name": "护心胡萝卜",
+      "price": 65,
+      "bonusKey": "coq10",
+      "bonus": 3,
+      "bonusText": "辅酶 Q10 +3",
+      "desc": "脆生生的一小根，给心肌续一点燃料。夜视是谣言，面对健康餐单的勇气是真的。",
+      "icon": "carrot",
+      "iconSrc": "image/uploads/shop/carrot.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "tomato",
+      "cat": "produce",
+      "name": "红润小番茄",
+      "price": 85,
+      "bonusKey": "coq10",
+      "bonus": 4,
+      "bonusText": "辅酶 Q10 +4",
+      "desc": "红得像小心害羞。番茄红素帮血管做一次温和打扫，生吃热炒都欢迎。",
+      "icon": "tomato",
+      "iconSrc": "image/uploads/shop/tomato.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "kiwi",
+      "cat": "produce",
+      "name": "清甜猕猴桃",
+      "price": 80,
+      "bonusKey": "mag",
+      "bonus": 4,
+      "bonusText": "镁元素 +4",
+      "desc": "酸甜刚好，维生素 C 很慷慨。挖一勺，心情和镁槽一起往上抬一点。",
+      "icon": "kiwi",
+      "iconSrc": "image/uploads/shop/kiwi.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "walnut",
+      "cat": "produce",
+      "name": "原味核桃仁",
+      "price": 135,
+      "bonusKey": "omega3",
+      "bonus": 5,
+      "bonusText": "Omega-3 +5",
+      "desc": "不加油不裹糖，咔嚓一口就是植物里的 Omega-3。当零食刚刚好，别整袋消灭。",
+      "icon": "walnut",
+      "iconSrc": "image/uploads/shop/walnut.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "food-1",
+      "cat": "meat",
+      "name": "深海护心鱼",
+      "price": 170,
+      "bonusKey": "omega3",
+      "bonus": 6,
+      "bonusText": "Omega-3 +6",
+      "desc": "三文鱼、鲭鱼这一挂的老朋友。清蒸或水煮，一次补足大半槽 Omega-3，店长最推荐。",
+      "icon": "food-1",
+      "iconSrc": "image/uploads/shop/food-1.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "breast",
+      "cat": "meat",
+      "name": "清蒸嫩鸡胸",
+      "price": 155,
+      "bonusKey": "coq10",
+      "bonus": 6,
+      "bonusText": "辅酶 Q10 +6",
+      "desc": "去皮清蒸，蛋白质来得干净。给心肌供能，却不把油锅一起端上桌。",
+      "icon": "breast",
+      "iconSrc": "image/uploads/shop/breast.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "water",
+      "cat": "drink",
+      "name": "温热白开水",
+      "price": 30,
+      "bonusKey": "mag",
+      "bonus": 2,
+      "bonusText": "镁元素 +2",
+      "desc": "最便宜也最老实的护心饮料。温一口，血液不那么黏，镁也更好吸收。",
+      "icon": "water",
+      "iconSrc": "image/uploads/shop/water.png",
+      "placeholder": false,
+      "on": true
+    },
+    {
+      "id": "soy",
+      "cat": "drink",
+      "name": "无糖鲜豆浆",
+      "price": 70,
+      "bonusKey": "omega3",
+      "bonus": 3,
+      "bonusText": "Omega-3 +3",
+      "desc": "不另加糖，豆香自己会说话。植物脂肪温和，适合配核桃或鱼做一套护心早餐。",
+      "icon": "soy",
+      "iconSrc": "image/uploads/shop/soy.png",
+      "placeholder": false,
+      "on": true
+    }
+  ]
+}

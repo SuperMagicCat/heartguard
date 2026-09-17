@@ -1,0 +1,391 @@
+{
+  "cost": 2,
+  "library": [
+    {
+      "id": "deep-fish",
+      "title": "深海鱼",
+      "desc": "例如三文鱼、鲭鱼、沙丁鱼等，深海鱼富含 Omega-3，能减轻血管炎症、帮助稳定心律。",
+      "art": "fish",
+      "artSrc": "image/card/fish.png",
+      "slot": "club-2",
+      "owned": true
+    },
+    {
+      "id": "card-1",
+      "title": "香蕉",
+      "desc": "钾和镁的老搭档。吃一根，心跳稳一点，加班到腿软时也不那么容易抽筋。",
+      "art": "card-1",
+      "artSrc": "image/uploads/cards/card-1.png",
+      "slot": "spade-A",
+      "owned": false
+    },
+    {
+      "id": "card-2",
+      "title": "胡萝卜",
+      "desc": "脆生生的一小根，给心肌续一点燃料。橙黄蔬菜里的抗氧化物质，对血管很友善。",
+      "art": "card-2",
+      "artSrc": "image/uploads/cards/card-2.png",
+      "slot": "spade-10",
+      "owned": false
+    },
+    {
+      "id": "card-3",
+      "title": "鸡胸肉",
+      "desc": "去皮清蒸，蛋白质来得干净。给心肌供能，却不把油锅一起端上桌。",
+      "art": "card-3",
+      "artSrc": "image/uploads/cards/card-3.png",
+      "slot": "spade-4",
+      "owned": false
+    },
+    {
+      "id": "card-4",
+      "title": "苹果",
+      "desc": "一天一苹果，小心少操劳。膳食纤维帮你稳血糖，也让血管轻松一点。",
+      "art": "card-4",
+      "artSrc": "image/uploads/cards/card-4.png",
+      "slot": "club-A",
+      "owned": false
+    },
+    {
+      "id": "card-5",
+      "title": "豆浆",
+      "desc": "不另加糖，豆香自己会说话。植物蛋白温和，适合做成一套护心早餐。",
+      "art": "card-5",
+      "artSrc": "image/uploads/cards/card-5.png",
+      "slot": "spade-K",
+      "owned": false
+    },
+    {
+      "id": "card-6",
+      "title": "白开水",
+      "desc": "最老实的护心饮料。温一口，血液不那么黏，代谢也更顺。",
+      "art": "card-6",
+      "artSrc": "image/uploads/cards/card-6.png",
+      "slot": "heart-7",
+      "owned": false
+    },
+    {
+      "id": "card-7",
+      "title": "橙子",
+      "desc": "维生素 C 很慷慨。酸甜一口，心情和血管弹性一起抬一点。",
+      "art": "card-7",
+      "artSrc": "image/uploads/cards/card-7.png",
+      "slot": "heart-10",
+      "owned": false
+    },
+    {
+      "id": "card-8",
+      "title": "猕猴桃",
+      "desc": "酸甜刚好，钾和维生素都在。挖一勺，比甜饮料更懂小心。",
+      "art": "card-8",
+      "artSrc": "image/uploads/cards/card-8.png",
+      "slot": "spade-6",
+      "owned": false
+    },
+    {
+      "id": "card-9",
+      "title": "含糖汽水",
+      "desc": "冰镇很爽，糖分却悄悄加重心脏负担。解渴请先找白开水。",
+      "art": "card-9",
+      "artSrc": "image/uploads/cards/card-9.png",
+      "slot": "diamond-J",
+      "owned": false
+    },
+    {
+      "id": "card-10",
+      "title": "绿叶菜",
+      "desc": "深绿叶子里藏着镁和叶酸。炒一盘，血压和心律都更稳妥。",
+      "art": "card-10",
+      "artSrc": "image/uploads/cards/card-10.png",
+      "slot": "heart-A",
+      "owned": false
+    },
+    {
+      "id": "card-11",
+      "title": "蓝莓",
+      "desc": "小小一捧花青素。抗氧化，给血管做一次温和打扫。",
+      "art": "card-11",
+      "artSrc": "image/uploads/cards/card-11.png",
+      "slot": "diamond-4",
+      "owned": false
+    },
+    {
+      "id": "card-12",
+      "title": "优质油脂",
+      "desc": "橄榄油、鱼油这类不饱和脂肪，适量用，比反复油炸更护心。",
+      "art": "card-12",
+      "artSrc": "image/uploads/cards/card-12.png",
+      "slot": "club-4",
+      "owned": false
+    },
+    {
+      "id": "card-13",
+      "title": "心跳监测",
+      "desc": "安静时摸摸脉搏。过快、过慢或乱跳，都值得停下来问问医生。",
+      "art": "card-13",
+      "artSrc": "image/uploads/cards/card-13.png",
+      "slot": "heart-Q",
+      "owned": false
+    },
+    {
+      "id": "card-14",
+      "title": "香烟",
+      "desc": "烟雾让血管收缩、心跳加快。少抽一支，小心就轻松一支。",
+      "art": "card-14",
+      "artSrc": "image/uploads/cards/card-14.png",
+      "slot": "spade-8",
+      "owned": false
+    },
+    {
+      "id": "card-15",
+      "title": "酒精",
+      "desc": "少喝或最好不喝。过量会让血压升高、心律不稳，心脏加班到累。",
+      "art": "card-15",
+      "artSrc": "image/uploads/cards/card-15.png",
+      "slot": "club-3",
+      "owned": false
+    },
+    {
+      "id": "card-16",
+      "title": "油炸食品",
+      "desc": "外酥里香，多余油脂和盐却堆在血管里。偶尔解馋，别天天见。",
+      "art": "card-16",
+      "artSrc": "image/uploads/cards/card-16.png",
+      "slot": "heart-4",
+      "owned": false
+    },
+    {
+      "id": "card-17",
+      "title": "及时就医",
+      "desc": "胸痛、气短、冷汗别硬扛。早一分钟呼救，就多一分生机。",
+      "art": "card-17",
+      "artSrc": "image/uploads/cards/card-17.png",
+      "slot": "spade-9",
+      "owned": false
+    },
+    {
+      "id": "card-18",
+      "title": "蘑菇",
+      "desc": "低油低负担，钾和膳食纤维都在。清炒或煮汤，给心脏一碗清淡的。",
+      "art": "card-18",
+      "artSrc": "image/uploads/cards/card-18.png",
+      "slot": "heart-5",
+      "owned": false
+    },
+    {
+      "id": "card-19",
+      "title": "运动",
+      "desc": "动一动，心跳才有底气。每周累计 150 分钟中等强度，比一直坐着强。",
+      "art": "card-19",
+      "artSrc": "image/uploads/cards/card-19.png",
+      "slot": "heart-9",
+      "owned": false
+    },
+    {
+      "id": "card-20",
+      "title": "睡眠",
+      "desc": "枕头和被子就位。睡够 7 小时，血压和情绪都比较听话。",
+      "art": "card-20",
+      "artSrc": "image/uploads/cards/card-20.png",
+      "slot": "club-10",
+      "owned": false
+    },
+    {
+      "id": "card-21",
+      "title": "咖啡",
+      "desc": "提神可以，别灌到心慌。每天一两杯，过了下午就停。",
+      "art": "card-21",
+      "artSrc": "image/uploads/cards/card-21.png",
+      "slot": "diamond-8",
+      "owned": false
+    },
+    {
+      "id": "card-22",
+      "title": "均衡饮食",
+      "desc": "盘子里颜色越多越好。蔬果、优质蛋白搭配着来，心脏才吃得明白。",
+      "art": "card-22",
+      "artSrc": "image/uploads/cards/card-22.png",
+      "slot": "club-6",
+      "owned": false
+    },
+    {
+      "id": "card-23",
+      "title": "规律作息",
+      "desc": "固定睡觉，少熬夜。小心也需要休息日，第二天心跳才不加班。",
+      "art": "card-23",
+      "artSrc": "image/uploads/cards/card-23.png",
+      "slot": "club-Q",
+      "owned": false
+    }
+  ],
+  "cards": {
+    "club-2": {
+      "title": "深海鱼",
+      "desc": "例如三文鱼、鲭鱼、沙丁鱼等，深海鱼富含 Omega-3，能减轻血管炎症、帮助稳定心律。",
+      "art": "fish",
+      "artSrc": "image/card/fish.png",
+      "owned": true
+    },
+    "spade-A": {
+      "title": "香蕉",
+      "desc": "钾和镁的老搭档。吃一根，心跳稳一点，加班到腿软时也不那么容易抽筋。",
+      "art": "card-1",
+      "artSrc": "image/uploads/cards/card-1.png",
+      "owned": false
+    },
+    "spade-10": {
+      "title": "胡萝卜",
+      "desc": "脆生生的一小根，给心肌续一点燃料。橙黄蔬菜里的抗氧化物质，对血管很友善。",
+      "art": "card-2",
+      "artSrc": "image/uploads/cards/card-2.png",
+      "owned": false
+    },
+    "spade-4": {
+      "title": "鸡胸肉",
+      "desc": "去皮清蒸，蛋白质来得干净。给心肌供能，却不把油锅一起端上桌。",
+      "art": "card-3",
+      "artSrc": "image/uploads/cards/card-3.png",
+      "owned": false
+    },
+    "club-A": {
+      "title": "苹果",
+      "desc": "一天一苹果，小心少操劳。膳食纤维帮你稳血糖，也让血管轻松一点。",
+      "art": "card-4",
+      "artSrc": "image/uploads/cards/card-4.png",
+      "owned": false
+    },
+    "spade-K": {
+      "title": "豆浆",
+      "desc": "不另加糖，豆香自己会说话。植物蛋白温和，适合做成一套护心早餐。",
+      "art": "card-5",
+      "artSrc": "image/uploads/cards/card-5.png",
+      "owned": false
+    },
+    "heart-7": {
+      "title": "白开水",
+      "desc": "最老实的护心饮料。温一口，血液不那么黏，代谢也更顺。",
+      "art": "card-6",
+      "artSrc": "image/uploads/cards/card-6.png",
+      "owned": false
+    },
+    "heart-10": {
+      "title": "橙子",
+      "desc": "维生素 C 很慷慨。酸甜一口，心情和血管弹性一起抬一点。",
+      "art": "card-7",
+      "artSrc": "image/uploads/cards/card-7.png",
+      "owned": false
+    },
+    "spade-6": {
+      "title": "猕猴桃",
+      "desc": "酸甜刚好，钾和维生素都在。挖一勺，比甜饮料更懂小心。",
+      "art": "card-8",
+      "artSrc": "image/uploads/cards/card-8.png",
+      "owned": false
+    },
+    "diamond-J": {
+      "title": "含糖汽水",
+      "desc": "冰镇很爽，糖分却悄悄加重心脏负担。解渴请先找白开水。",
+      "art": "card-9",
+      "artSrc": "image/uploads/cards/card-9.png",
+      "owned": false
+    },
+    "heart-A": {
+      "title": "绿叶菜",
+      "desc": "深绿叶子里藏着镁和叶酸。炒一盘，血压和心律都更稳妥。",
+      "art": "card-10",
+      "artSrc": "image/uploads/cards/card-10.png",
+      "owned": false
+    },
+    "diamond-4": {
+      "title": "蓝莓",
+      "desc": "小小一捧花青素。抗氧化，给血管做一次温和打扫。",
+      "art": "card-11",
+      "artSrc": "image/uploads/cards/card-11.png",
+      "owned": false
+    },
+    "club-4": {
+      "title": "优质油脂",
+      "desc": "橄榄油、鱼油这类不饱和脂肪，适量用，比反复油炸更护心。",
+      "art": "card-12",
+      "artSrc": "image/uploads/cards/card-12.png",
+      "owned": false
+    },
+    "heart-Q": {
+      "title": "心跳监测",
+      "desc": "安静时摸摸脉搏。过快、过慢或乱跳，都值得停下来问问医生。",
+      "art": "card-13",
+      "artSrc": "image/uploads/cards/card-13.png",
+      "owned": false
+    },
+    "spade-8": {
+      "title": "香烟",
+      "desc": "烟雾让血管收缩、心跳加快。少抽一支，小心就轻松一支。",
+      "art": "card-14",
+      "artSrc": "image/uploads/cards/card-14.png",
+      "owned": false
+    },
+    "club-3": {
+      "title": "酒精",
+      "desc": "少喝或最好不喝。过量会让血压升高、心律不稳，心脏加班到累。",
+      "art": "card-15",
+      "artSrc": "image/uploads/cards/card-15.png",
+      "owned": false
+    },
+    "heart-4": {
+      "title": "油炸食品",
+      "desc": "外酥里香，多余油脂和盐却堆在血管里。偶尔解馋，别天天见。",
+      "art": "card-16",
+      "artSrc": "image/uploads/cards/card-16.png",
+      "owned": false
+    },
+    "spade-9": {
+      "title": "及时就医",
+      "desc": "胸痛、气短、冷汗别硬扛。早一分钟呼救，就多一分生机。",
+      "art": "card-17",
+      "artSrc": "image/uploads/cards/card-17.png",
+      "owned": false
+    },
+    "heart-5": {
+      "title": "蘑菇",
+      "desc": "低油低负担，钾和膳食纤维都在。清炒或煮汤，给心脏一碗清淡的。",
+      "art": "card-18",
+      "artSrc": "image/uploads/cards/card-18.png",
+      "owned": false
+    },
+    "heart-9": {
+      "title": "运动",
+      "desc": "动一动，心跳才有底气。每周累计 150 分钟中等强度，比一直坐着强。",
+      "art": "card-19",
+      "artSrc": "image/uploads/cards/card-19.png",
+      "owned": false
+    },
+    "club-10": {
+      "title": "睡眠",
+      "desc": "枕头和被子就位。睡够 7 小时，血压和情绪都比较听话。",
+      "art": "card-20",
+      "artSrc": "image/uploads/cards/card-20.png",
+      "owned": false
+    },
+    "diamond-8": {
+      "title": "咖啡",
+      "desc": "提神可以，别灌到心慌。每天一两杯，过了下午就停。",
+      "art": "card-21",
+      "artSrc": "image/uploads/cards/card-21.png",
+      "owned": false
+    },
+    "club-6": {
+      "title": "均衡饮食",
+      "desc": "盘子里颜色越多越好。蔬果、优质蛋白搭配着来，心脏才吃得明白。",
+      "art": "card-22",
+      "artSrc": "image/uploads/cards/card-22.png",
+      "owned": false
+    },
+    "club-Q": {
+      "title": "规律作息",
+      "desc": "固定睡觉，少熬夜。小心也需要休息日，第二天心跳才不加班。",
+      "art": "card-23",
+      "artSrc": "image/uploads/cards/card-23.png",
+      "owned": false
+    }
+  }
+}

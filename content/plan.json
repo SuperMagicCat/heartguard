@@ -1,0 +1,41 @@
+{
+  "title": "今日计划",
+  "items": [
+    {
+      "id": "login",
+      "title": "登陆游戏",
+      "desc": "来了就不容易了",
+      "kind": "login",
+      "reward": 50,
+      "pay": "coins",
+      "on": true
+    },
+    {
+      "id": "water",
+      "title": "喝杯水吧？",
+      "desc": "给小心脏买一杯水喝，别忘了自己也要多喝水哦",
+      "kind": "check",
+      "reward": 50,
+      "pay": "coins",
+      "on": true
+    },
+    {
+      "id": "fruit",
+      "title": "吃点水果",
+      "desc": "给小心脏吃点水果，别忘了自己也要多吃水果哦",
+      "kind": "check",
+      "reward": 50,
+      "pay": "coins",
+      "on": true
+    },
+    {
+      "id": "sport",
+      "title": "运动一下",
+      "desc": "适量运动对心脏有很大的好处!",
+      "kind": "check",
+      "reward": 50,
+      "pay": "coins",
+      "on": true
+    }
+  ]
+}

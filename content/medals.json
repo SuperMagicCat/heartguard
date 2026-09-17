@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "rookie",
+      "title": "急救新手",
+      "desc": "第一次完成限时模拟或急救训练后获得。",
+      "tone": "silver",
+      "icon": "medalSilver",
+      "iconSrc": "image/medal/silver.png",
+      "owned": false,
+      "on": true
+    },
+    {
+      "id": "guard",
+      "title": "心脏卫士",
+      "desc": "坚持守护心脏健康，完成今日计划后点亮。",
+      "tone": "gold",
+      "icon": "medalGold",
+      "iconSrc": "image/medal/gold.png",
+      "owned": true,
+      "on": true
+    },
+    {
+      "id": "steady",
+      "title": "坚持之心",
+      "desc": "连续完成多日计划后获得。",
+      "tone": "silver",
+      "icon": "medalSilver",
+      "iconSrc": "image/medal/silver.png",
+      "owned": false,
+      "on": true
+    },
+    {
+      "id": "scholar",
+      "title": "知识达人",
+      "desc": "在快问快答中累计答对足够多的题目。",
+      "tone": "bronze",
+      "icon": "medalBronze",
+      "iconSrc": "image/medal/bronze.png",
+      "owned": false,
+      "on": true
+    }
+  ]
+}
