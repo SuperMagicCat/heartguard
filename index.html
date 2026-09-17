@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="screen-orientation" content="landscape" />
+  <meta name="x5-orientation" content="landscape" />
+  <meta name="full-screen" content="yes" />
+  <title>心援计划</title>
+  <style>
+    @font-face {
+      font-family: 'FZSJ-NIDHJMT';
+      src: url('fonts/ui.ttf') format('truetype');
+      font-display: swap;
+    }
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #1c1211;
+      touch-action: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    #game {
+      display: block;
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+      background: #fff7f3;
+    }
+    #rotate {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      background: #1c1211;
+      color: #f6efe8;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+      text-align: center;
+      padding: 24px;
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    #rotate b {
+      font-size: 28px;
+      letter-spacing: 0.12em;
+    }
+    #rotate span {
+      color: #cbb8ae;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    @media (orientation: portrait) {
+      #rotate { display: flex; }
+      #game { visibility: hidden; }
+    }
+  </style>
+</head>
+<body>
+  <div id="rotate">
+    <b>请横过来玩</b>
+    <span>心援计划是横屏游戏，把手机转成横向即可开始。</span>
+  </div>
+  <canvas id="game"></canvas>
+  <script>
+    (function () {
+      function lockLandscape() {
+        var ori = screen.orientation || screen.mozOrientation || screen.msOrientation
+        if (!ori || !ori.lock) return
+        ori.lock('landscape').catch(function () {})
+      }
+      document.addEventListener('pointerdown', lockLandscape, { once: true })
+      document.addEventListener('click', lockLandscape, { once: true })
+      lockLandscape()
+    })()
+  </script>
+  <script src="content/bundle.js?v=content7"></script>
+  <script src="game.js?v=hub86"></script>
+</body>
+</html>

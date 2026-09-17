@@ -1,0 +1,18 @@
+{
+  "deviceOrientation": "landscape",
+  "showStatusBar": false,
+  "subpackages": [
+    {
+      "name": "image",
+      "root": "image/"
+    },
+    {
+      "name": "godot",
+      "root": "godot-heart/"
+    },
+    {
+      "name": "audio",
+      "root": "audio/"
+    }
+  ]
+}

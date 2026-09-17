@@ -1,0 +1,40 @@
+{
+  "description": "HeartGuard 急救知识小游戏",
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "file",
+        "value": "preview.html"
+      },
+      {
+        "type": "folder",
+        "value": "admin"
+      },
+      {
+        "type": "folder",
+        "value": "godot-heart/heart-walk/.godot"
+      }
+    ]
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "game",
+  "libVersion": "3.7.0",
+  "appid": "wx3f5f6fcd71aaedf6",
+  "projectname": "heartguard",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
