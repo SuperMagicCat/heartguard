@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>心援计划 · 内容后台</title>
+  <link rel="stylesheet" href="admin.css?v=5" />
+</head>
+<body>
+  <aside>
+    <p class="brand">心援计划</p>
+    <p class="brand-sub">内容后台</p>
+    <nav>
+      <button data-tab="shop" class="on">商城</button>
+      <button data-tab="wardrobe">衣橱</button>
+      <button data-tab="cards">卡牌库</button>
+      <button data-tab="plan">计划</button>
+      <button data-tab="medals">徽章</button>
+      <button data-tab="quiz">知识问答</button>
+    </nav>
+    <p class="aside-note">改完点右上角保存。游戏请打开 <a href="/" target="_blank">H5 游玩页</a></p>
+  </aside>
+  <main>
+    <header>
+      <div>
+        <h1 id="pageTitle">商城</h1>
+        <p id="pageHint" class="hint">增删改商品，下架的不会出现在游戏里。</p>
+      </div>
+      <div class="actions">
+        <span id="saveState">尚未保存</span>
+        <button type="button" id="btnExport">导出</button>
+        <button type="button" id="btnImport">导入</button>
+        <button type="button" class="primary" id="btnSave">保存全部</button>
+      </div>
+    </header>
+    <section id="view"></section>
+  </main>
+  <input id="fileImport" type="file" accept="application/json" hidden />
+  <script src="admin.js?v=9"></script>
+</body>
+</html>
